@@ -1,0 +1,7 @@
+Data Transfer Time =Seek Time+Rotationaldelay+Transfer rate 
+Turn Around Time = Complatation Time-Arrival Time
+WaitingTime= TurnArroundTime-Burst Time
+NudTime=Max-Allocation 
+tAccess=(1-p)*tMA+p*tFAULT
+Equal Allocation/Replacement=m/n
+Proportional Alllocation/Replacement=m*S/S
